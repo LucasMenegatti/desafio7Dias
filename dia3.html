@@ -1,39 +1,9 @@
-<meta charset="UTF-8">
-
-<script>
-    while(true){
-        primeiraPergunta: {
-            let areaQuePrefere = prompt('Olá! Você prefere seguir para a área do Front-End (FRONT) ou do Back-End (BACK)?');
-            if(areaQuePrefere === 'FRONT'){
-                areaQuePrefere = 'Front-End'
-                let framework = prompt('Legal! E quer aprender REACT ou aprender VUE?');
-            } else if(areaQuePrefere === 'BACK'){
-                areaQuePrefere = 'Back-End'
-                let framework = prompt('Legal! E quer aprender C# ou aprender JAVA?');
-            } else {
-                alert('Responda com FRONT ou BACK :)');
-                break primeiraPergunta;
-            }
-        }
-        let seguirDesenvolvendoOuFullstack = prompt('Você quer continuar (CONTINUAR) se desenvolvendo em '+framework+' ou quer se tornar um desenvolvedor Full-stack (FULL)?')
-        if(seguirDesenvolvendoOuFullstack === 'CONTINUAR'){
-            seguirDesenvolvendoOuFullstack = 'continuar se desenvolvendo neste framework.'
-            } else if(seguirDesenvolvendoOuFullstack === 'FULL'){
-        seguirDesenvolvendoOuFullstack = 'se tornar um desenvolvedor Full-stack'
-        } else alert('Responda com CONTINUAR ou FULL :)');  
-    }
-    
-    var tecnologias = [];
-    while(true){
-        let tecnologiaEscolhida = pompt('Quais as tecnologias nas quais você quer se especializar? (Digite FIM para sair)')
-        if(tecnologiaEscolhida === 'FIM') break
-        tecnologias.push = tecnologiaEscolhida;
-    }
-    document.write('<p>Você prefere a área de '+areaQuePrefere+', quer aprender '+framework+', e quer '+seguirDesenvolvendoOuFullstack+'.</p>');
-    document.write('<p>Além disso, você deseja se especializar na(s) seguinte(s) tecnologia(s):<br>');
-    for(i=0; i<tecnologias.length;i++){
-        document.write('<ul><li>'+tecnologias[i]+'</li>');
-    }
-    document.write('</ul>');
-    
-</script>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+        <script type="text/javascript" src="dia3JS.js"></script>
+    </body>
+</html>
