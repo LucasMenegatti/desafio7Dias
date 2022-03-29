@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+
+<script>
+    let nome = prompt('Qual o seu nome?');
+    let idade = prompt(nome+', qual a sua idade?');
+    let linguagem = prompt(nome+', qual linguagem de programação você está aprendendo?');
+
+    alert('Olá '+nome+', você tem '+idade+' anos e já está aprendendo '+linguagem+'!');
+
+    let gosta = prompt('Você gosta de estudar ? Responda com o número 1 para SIM ou 2 para NÃO.');
+
+    switch(gosta){
+    case '1': alert('Muito bom! Continue estudando e você terá muito sucesso.'); break
+    case '2': alert('Ahh que pena... Já tentou aprender outras linguagens?'); break
+    default: alert('Opção inválida :(');
+    }
+
+</script>
